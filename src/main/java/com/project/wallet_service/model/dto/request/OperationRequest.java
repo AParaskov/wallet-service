@@ -1,6 +1,5 @@
 package com.project.wallet_service.model.dto.request;
 
-import com.project.wallet_service.model.enumeration.OperationName;
 import com.project.wallet_service.util.validation.ValidOperationName;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Digits;

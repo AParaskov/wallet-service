@@ -21,7 +21,7 @@ import java.util.ArrayList;
 @RequiredArgsConstructor
 public class WalletMapper {
     private final BCryptPasswordEncoder passwordEncoder;
-    private final SimpleDateFormat simpleDateFormat;
+    private final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     public Wallet createWalletRequestToWalletEntity(CreateWalletRequest request) {
         return Wallet.builder()

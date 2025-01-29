@@ -1,6 +1,5 @@
 package com.project.wallet_service.model.dto.response;
 
-import com.project.wallet_service.model.Operation;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
